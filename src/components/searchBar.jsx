@@ -1,15 +1,5 @@
 import React from "react";
 
-// const logos = [
-//   {
-//     image: "/public/icons/icons8-menu-24.png",
-//   },
-
-//   {
-//     image: "/public/icons/icons8-add-property-50.png",
-//   },
-// ];
-
 function searchBar() {
   return (
     <div className="searchBar">
@@ -33,14 +23,6 @@ function searchBar() {
           className="icons"
         />
       </div>
-
-      {/* <div className="menu">
-        {logos.map((item, itemIdx) => (
-          <div key={itemIdx} className="icons">
-            <img src={item.image} alt="image" className="images" />
-          </div>
-        ))}
-      </div> */}
     </div>
   );
 }
