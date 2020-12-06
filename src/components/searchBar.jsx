@@ -14,7 +14,7 @@ function searchBar() {
   return (
     <div className="searchBar">
       <div className="menu">
-        <img src="/public/icons/icons8-menu-24.png" alt="icon" />
+        <img Src="\icons\icons8-menu-24.png" alt="icon" className="icons" />
       </div>
 
       <div className="serach-input">
@@ -27,7 +27,11 @@ function searchBar() {
       </div>
 
       <div className="menu">
-        <img src="/public/icons/icons8-add-property-50.png" alt="icon" />
+        <img
+          Src="\icons\icons8-add-property-50.png"
+          alt="icon"
+          className="icons"
+        />
       </div>
 
       {/* <div className="menu">
