@@ -1,10 +1,14 @@
-
 import './App.css';
+import SearchBar from './components/searchBar.jsx';
+
+ 
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <SearchBar />
+    
     </div>
   );
 }
