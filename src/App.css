@@ -39,6 +39,7 @@ body {
   display: flex;
   flex-direction: row;
   border: 1px solid lightgray;
+  overflow-x: hidden;
 }
 
 .serach-input {
@@ -54,6 +55,7 @@ body {
 
 .menu {
   margin: 1rem;
+  cursor: pointer;
 }
 .icons {
   width: 1.3rem;
@@ -62,6 +64,7 @@ body {
 
 .toggle-sidebar {
   margin: 1rem;
+  cursor: pointer;
 }
 
 .right-icons {
@@ -69,6 +72,7 @@ body {
   margin: 1rem;
   justify-content: space-around;
   margin-left: 46rem;
+  cursor: pointer;
 }
 
 .mleft {
@@ -81,10 +85,21 @@ body {
   height: 80vh;
   width: 67vw;
 }
-
+.note-editor {
+  display: flex;
+  flex-direction: column;
+}
 textarea {
+  flex-grow: 1;
   width: 40rem;
   height: 80vh;
   border: none;
+  outline: none;
+}
+.note-editor input {
+  border: none;
+  margin-bottom: 2rem;
+}
+.note-editor input:focus {
   outline: none;
 }
